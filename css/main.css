@@ -1,0 +1,291 @@
+/*********GENERAL**********/
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+
+/*******************
+COLORS
+******************/
+
+
+/* site body */
+body {
+  background-image: url('../img/cover.gif');
+  color: #999;
+  background-size: contain;
+}
+
+/* green header */
+header {
+  font-family: sans-serif;
+  background: #ffefd5;
+  border-color: #599a68;
+}
+
+/* nav background in mobile*/
+nav {
+  background: #deb887;
+}
+
+/* logo text */
+h1, h2 {
+  color: #a52a2a;
+}
+
+/*likns*/
+a {
+  color: #6ab47b;
+}
+
+/* nav link */
+nav a, nav a:visited {
+  color: #a52a2a;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #32673f;
+}
+
+/*******************
+HEADING
+******************/
+
+header {
+  float: right;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+/*******************
+navigation
+******************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0; 
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+/*******************
+footer
+******************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #48D1CC;
+}
+
+
+
+/*******************
+PAGE: PORTFOLIO
+******************/
+
+
+#gallery {
+  
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: 20%;
+}
+
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%; 
+
+  
+}
+
+
+
+
+/* Layout Styles ------------------ */
+
+.secondary-content {
+	padding-top: 40px;
+	padding-bottom: 30px;
+  border-bottom: 20px solid #dfe2e6;
+}
+
+.secondary-content {
+  width: 80%;
+  margin: auto;
+  max-width: 1000px;
+  
+}
+
+.word {
+  float: right; 
+  margin-top: 10px;
+  margin-right: 50px;
+  padding: 10px 10px 10px 20px;
+  text-decoration-style: dotted;
+  font-family: anton;
+  font-size: 1.30em;
+  background-color: #fff;
+  text-emphasis-style: dot;
+  
+}
+
+.lugar {
+  font-family: Pacifico;
+  font-size: 2em;
+  text-align:center;
+  background: #fff;
+}
+
+.designs {
+  margin-top: 480px;
+  font-family: Pacifico;
+  font-size: 1em;
+  text-align:center;
+  background: #fff;
+}
+
+img {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Floated Columns ------------------ */
+
+.resorts,
+.tips {
+  font-size: 1.50em;
+  text-align:center;
+  font-family: Bangers;
+  width: 40%;
+}
+
+.tips {
+  float: left;
+}
+
+.resorts {
+  float: right;
+}
+
+/* Float Clearfix ------------------ */
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+table {
+  font-family: Crafty+Girls;
+  background-color:rgba(255,0,0,0.3);
+  margin: 120px;
+    width: 80%;
+}
+table, th, td {
+    border: 3px solid white;
+    
+}
+th, td {
+    padding: 20px;
+    text-align: center;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t01 th	{
+    background-color: white;
+    color: white;
+}
+
+
+div.img {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #0000ff;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}	
+
+div.img img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+}
+
+div.img a:hover img {
+    border: 1px solid #0000ff;
+}
+
+div.desc {
+  text-align: center;
+  font-weight: normal;
+  width: 120px;
+  margin: 5px;
+}
+
+/*****Prompt box *****/
+.present {
+  text-align: center;
+}
+
+
+.text {
+  text-align:center;
+}
+
+.Number {
+  text-align: center;
+}
+
